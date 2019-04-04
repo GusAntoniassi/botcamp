@@ -5,6 +5,10 @@
     font-size: 20px;
     color: white;
     background-color: #ee3e25;
-    text-transform: uppercase;
     border: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
 }
