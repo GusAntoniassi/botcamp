@@ -1,12 +1,19 @@
-/**
- * "Dumb component" ou "Stateless component"
- * Dessa forma é mais leve que a forma "class Foo extends Component"
- */
-import React from 'react';
-import './style.css';
+import styled from 'styled-components';
 
-const BtnBotcamp = () => (
-    <button className="btn-botcamp">Entrar</button>
-);
+const BtnBotcamp = styled.button`
+    width: 280px;
+    height: 50px;
+    border-radius: 25px; 
+    font-size: 20px;
+    
+    color: white;
+    background-color: #ee3e25;
+    text-transform: uppercase;
+    
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+`;
 
 export default BtnBotcamp;
