@@ -1,9 +1,10 @@
 import React from 'react';
+
+import logoBotcamp from '../../img/botcamp.png';
 import './style.css';
-import logo from './botcamp.png';
 
 const LogoBotcamp = () => (
-    <img src={ logo } className="logo-botcamp" alt="Logotipo do BotCamp" />
+    <img src={ logoBotcamp } className="logo-botcamp" alt="Logotipo do BotCamp" />
 );
 
 export default LogoBotcamp;
