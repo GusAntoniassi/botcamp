@@ -11,11 +11,6 @@ const BtnBotcamp = styled.button.attrs({
     color: white;
     background-color: #ee3e25;
     text-transform: uppercase;
-    
-    position: absolute;
-    bottom: 12%;
-    left: 50%;
-    transform: translateX(-50%);
 `;
 
 export default BtnBotcamp;

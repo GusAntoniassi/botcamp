@@ -7,11 +7,6 @@ export const LogoBotcamp = styled.img.attrs(() => ({
     alt: 'Logotipo do BotCamp'
 }))`
     width: 248px;
-        
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translateX(-50%);
 `;
-
+// 
 export default LogoBotcamp;
